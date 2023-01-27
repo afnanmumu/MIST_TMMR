@@ -1,3 +1,116 @@
+<?php 
+
+/*$host="localhost";
+$user="root";
+$password="";
+$db="bio_basket";*/
+
+/*mysql_connect($host,$user,$password);
+mysql_select_db($db);*/
+/*
+$conn =  new mysqli($host,$user,$password,$db);
+
+if(isset($_POST['LOGIN'])){
+    
+    $uname=$_POST['Name'];
+    $password=$_POST['pass'];
+    
+    echo $uname . "  " . $password;
+    $sql="select * from ngo where user='".$uname."'AND Pass='".$password."' limit 1";
+    
+    //$result=mysql_query($conn,$sql);
+    
+    if(mysqli_query($conn,$sql) == TRUE){
+        echo " You Have Successfully Logged in";
+        exit();
+    }
+    else{
+        echo " You Have Entered Incorrect Password";
+        exit();
+    }
+        
+}*/
+?>
+
+
+
+
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "bio_basket";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+
+if(isset($_POST['LOGIN'])){
+    
+   $uname=$_POST['Name'];
+   $password=$_POST['pass'];
+   
+   //echo $uname . "  " . $password;
+   
+
+   $sql = "SELECT * from ngo";
+$result = $conn->query($sql);
+
+
+if ($result->num_rows > 0) {
+   // output data of each row
+   $flag=0;
+   while($row = $result->fetch_assoc()) {
+     //echo "id: " . $row["NGO_id"]. " - Name: " . $row["NGO_name"]. " " . $row["NGO_pass"]." " . $row["NGO_contact_no"]. "<br>";
+      if($row["NGO_name"]==$uname && $row["NGO_pass"]==$password)
+      {
+         $flag=1;
+         break;
+      }
+   }
+   if($flag==0)
+   {
+      echo "Incorrect username or pass";
+    
+     /*$script = "<script>window.location = 'login.php';</script>";
+        echo $script;*/
+
+
+   }
+   else
+   {
+      echo "correct username or pass";
+      header("Location: mycart.html");
+   
+     /*$script = "<script>window.location = 'login.php';</script>";
+        echo $script;*/
+   }
+ } else {
+   echo "0 results";
+ }
+
+
+       
+}
+
+
+
+
+
+
+$conn->close();
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -132,15 +245,30 @@
          <div class="container">
             <div class="contact_main">
                <h1 class="request_text">Login</h1>
-               <form action="/action_page.php">
+
+
+
+               <form method="POST"action="login.php">
                   <div class="form-group">
                      <input type="text" class="email-bt" placeholder="Email" name="Name">
                   </div>
                   <div class="form-group">
                     <input type="password" class="email-bt" placeholder="password" name="pass"></input>
                  </div>
+
+                 <div class="form-group">
+                    <input type="submit" class="send_btn"  name="LOGIN">
+                 </div>
+
+
                </form>
-               <div class="send_btn"><a href="#">SEND</a></div>
+               
+
+
+
+
+
+
             </div>
          </div>
       </div>
