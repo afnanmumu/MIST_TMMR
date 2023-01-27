@@ -54,7 +54,7 @@
                <form class="form-inline my-2 my-lg-0">
                   <div class="login_menu">
                      <ul>
-                        <li><a href="login.html">Login</a></li>
+                        <li><a href="registration.html">Registration</a></li>
                         <li><a href="#"><img src="images/trolly-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li>
                      </ul>
@@ -128,32 +128,16 @@
       </div>
       <!-- header section end -->
       <!-- contact section start -->
-      <div class="contact_section layout_padding">
+      <div id="contact" class="contact_section layout_padding">
          <div class="container">
             <div class="contact_main">
-               <h1 class="request_text">Registration</h1>
+               <h1 class="request_text">Login</h1>
                <form action="/action_page.php">
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Name" name="Name">
+                     <input type="text" class="email-bt" placeholder="Email" name="Name">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Email" name="Email">
-                  </div>
-                  <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Phone Number" name="phn_num">
-                  </div>
-                  <select class="form-group" placeholder="Phone Number" name="type">
-                     <option class="email-bt" value="ngo">NGO</option>
-                     <option class="email-bt" value="restuarant">RESTUARANT</option>
-                     <option class="email-bt" value="seller">SELLER</option>
-                  </select>
-                  <br>
-                  <br>
-                  <div class="form-group">
-                     <input class="email-bt" placeholder="password" name="pass"></input>
-                  </div>
-                  <div class="form-group">
-                    <input class="email-bt" placeholder="confirm password" name="cpass"></input>
+                    <input type="password" class="email-bt" placeholder="password" name="pass"></input>
                  </div>
                </form>
                <div class="send_btn"><a href="#">SEND</a></div>
@@ -162,7 +146,7 @@
       </div>
       <!-- contact section end -->
       <!-- footer section start -->
-      <div id="contact" class="footer_section layout_padding">
+      <div class="footer_section layout_padding">
          <div class="container-fluid">
             <div class="row">
                <div class="col-lg-8 col-sm-12 padding_0">
@@ -190,7 +174,7 @@
             </div>
          </div>
       </div>
-      <!-- footer section end -->  
+      <!-- footer section end -->   
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
