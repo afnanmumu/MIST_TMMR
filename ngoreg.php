@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Cycle</title>
+      <title>Contact</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -45,10 +45,7 @@
                      <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#product">Product Details</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#news">Sustainability</a>
+                     <a class="nav-link" href="mycart.html">Product Details</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="#contact">Contact Us</a>
@@ -58,7 +55,6 @@
                   <div class="login_menu">
                      <ul>
                         <li><a href="login.html">Login</a></li>
-                        <li><a href="registration.php">Registration</a></li>
                         <li><a href="#"><img src="images/trolly-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li>
                      </ul>
@@ -131,153 +127,40 @@
          <!-- banner section end -->
       </div>
       <!-- header section end -->
-      <!-- cycle section start -->
-      <div id ="product" class="cycle_section layout_padding">
-         <div class="container">
-            <h1 class="cycle_taital">About Our Products</h1>
-            <p class="cycle_text">Eco-friendly products may seem to be more expensive, but long-term they are actually more cost efficient. Eco-friendly products tend to last much longer. These products are typically made from recycled materials and are sturdy, withstanding most drops, kicks, and dishwashers. Eco-friendly products may have a larger sticker price, but since they last longer, it is an investment that will pay off.</p>
-            <div class="cycle_section_2 layout_padding">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="box_main">
-                        <h6 class="number_text">01</h6>
-                        <div class="image_2"><img src="images/p1.jpg"></div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <h1 class="cycles_text">Bamboo plates</h1>
-                     <p class="lorem_text">Easy to clean and not easy to break, please do not use steel scrubber for melamine bamboo plates. Non-toxic and tasteless, melamine bamboo plates meets international food safety standards. High cost-effective.</p>
-                     <div class="btn_main">
-                        <div class="buy_bt"><a href="#">Buy Now</a></div>
-                        <h4 class="price_text">Price <span style=" color: #325662">15 <span style=" color: #f7c17b">tk </span></span></h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="cycle_section_3 layout_padding">
-               <div class="row">
-                  <div class="col-md-6">
-                     <h1 class="cycles_text">Sustainable Glass</h1>
-                     <p class="lorem_text">Environmentally Sustainable Glass. Glass is often referred to as a Green product, because the main component to making glass is Silica.</p>
-                     <div class="btn_main">
-                        <div class="buy_bt"><a href="#">Buy Now</a></div>
-                        <h4 class="price_text">Price <span style=" color: #325662">10 <span style=" color: #f7c17b">tk </span></span></h4>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <div class="box_main_3">
-                        <h6 class="number_text_2">02</h6>
-                        <div class="image_2"><img src="images/p2.jpg"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="cycle_section_2 layout_padding">
-               <div class="row">
-                  <div class="col-md-6">
-                     <div class="box_main_3">
-                        <h6 class="number_text_2">03</h6>
-                        <div class="image_2"><img src="images/p3.png"></div>
-                     </div>
-                  </div>
-                  <div class="col-md-6">
-                     <h1 class="cycles_text">Bamboo Basket</h1>
-                     <p class="lorem_text">Being appreciated for its high economic value and cultural significance, it is used to carry various types of pulses, sand, grains & vegetables. </p>
-                     <div class="btn_main">
-                        <div class="buy_bt"><a href="#">Buy Now</a></div>
-                        <h4 class="price_text">Price <span style=" color: #325662">100</span> <span style=" color: #f7c17b">tk</span> </h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="read_btn_main">
-               <div class="read_bt"><a href="mycart.html">Read More</a></div>
-            </div>
-         </div>
-      </div>
-      <!-- cycle section end -->
-      <!-- about section start -->
-      <div class="about_section layout_padding">
-         <div class="container">
-            <h1 class="about_taital">About Our Initiative</h1>
-            <p class="about_text">
-               Astronauts may have not explored the whole galaxy yet, but it's still safe to say we only have one planet to call home. You should do everything you can to be eco-friendly, especially if you're a business owner.
-
-Quality Logo Products is proud to offer a variety of promotional products that can be called "eco-friendly". You'll find wheat straw pens, notebooks made from recycled materials, and plenty of reusable tote bags and water bottles.
-
-What does "eco-friendly" mean and how can your company get that label? After all, there is a lot of confusion about recycling and sustainability. Let's break it all down so you can start taking steps now to go green!
-            </p>
-            <div class="about_main">
-               <img src="images/about.png" class="image_5">
-            </div>
-         </div>
-      </div>
-      <!-- about section end -->
-      <!-- news section start -->
-      <div id="news" class="news_section layout_padding">
-         <div class="container">
-            <h1 class="news_taital">News</h1>
-            <p class="news_text">Officials at the meeting encouraged hotel, motel and restaurant owners to stop using single-use plastic.</p>
-            <div class="news_section_2 layout_padding">
-               <div class="row">
-                  <div class="col-sm-4">
-                     <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/n1.png"></div>
-                        <div class="padding_15">
-                           <h2 class="speed_text">Bangladesh to ban use of single-use plastic in hotels and restaurants</h2>
-                           <div class="post_text">Post by : Ruma Paul, Reuters <span style="float: right;">Jan 6, 2020, 7:28 PM</span></div>
-                           <p class="long_text">Worldwide, around 100 million tonnes of plastic are dumped into the ocean every year, according to the United Nations. Scientists have found large amounts of micro plastic in the intestines of deep-dwelling ocean mammals such as whales.
-                              Annually 87,000 tonnes of single-use plastics, including plastic bags, bottles, cups, plates and straws are thrown away in Bangladesh, according to a study by the Environment and Social Development Organization.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/n2.png"></div>
-                        <div class="padding_15">
-                           <h2 class="speed_text">Ban single-use plastics</h2>
-                           <div class="post_text">Post by : The Daily Star <span style="float: right;">FRIDAY, January 27, 2023</span></div>
-                           <p class="long_text">The National Geographic study covered an area of 2,575 square kilometres from the Padma to the Bay of Bengal to reach this alarming conclusion, the rights organisations said in writ petition, in 2018 the United Nations Environment Programme (UNEP) had reported the dumping of 73,000 tonnes of plastic waste into the Bay of Bengal through the Padma, Jamuna and Meghna Rivers.
-
-                              In the petition, according to a 2015 study by the Waste Concern, a total of 821,250 tonnes of plastic waste were generated annually in urban hubs of Bangladesh, 207,685 tonnes dumped in marine environments every year.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-sm-4">
-                     <div class="box_main_1">
-                        <div class="zoomout frame"><img src="images/s1.jpg"></div>
-                        <div class="padding_15">
-                           <h2 class="speed_text">Single-use plastic: Coastal areas still littered with them</h2>
-                           <div class="post_text">Post by : Sukanta Halder, Mostafa Yousuf <span style="float: right;">Sun Feb 6, 2022 04:22 AM</span></div>
-                           <p class="long_text">A total of fourty upazilas in the twelve districts and eight selected areas of Chattogram city are within the project area, shows the Action Plan of DoE.Bangladesh has been seeing a steep rise in plastic usage over the years. As per a World Bank research conducted in 2020, per capita plastic usage in the country was 3kg in 2005. The figure went up to 9kg in 2020.
-                              <br>
-                              According to World Bank data released last year, Bangladesh have had produces 8,21,250 tonnes plastic annually. Of the amount, 2,93,825 tonnes is recycled each year.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- news section end -->
       <!-- contact section start -->
-      <div id="contact" class="contact_section layout_padding">
+      <div class="contact_section layout_padding">
          <div class="container">
             <div class="contact_main">
-               <h1 class="request_text">A Call Back</h1>
+               <h1 class="request_text">Registration</h1>
+               <div>
+                <a href="ngoreg.php"><button style="color:blue;" class="btn info">NGO</button></a>
+               <a href="sellreg.php"><button class="btn info">SELLER</button></a>
+               <a href="resreg.php"><button class="btn info">RESTUARANT</button></a>
+                </div>
+                <br>
+                <br>
                <form action="/action_page.php">
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Name" name="Name">
+                     <input type="text" class="email-bt" placeholder="NGO Name" name="nname">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Email" name="Name">
+                     <input type="text" class="email-bt" placeholder="NGO Owner" name="oname">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
+                     <input type="text" class="email-bt" placeholder="NGO address" name="nadd">
                   </div>
                   <div class="form-group">
-                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                     <input type="text" class="email-bt" placeholder="Email" name="nemail">
                   </div>
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Phone Number" name="nphnnum">
+                  </div>
+                  <div class="form-group">
+                     <input class="email-bt" placeholder="password" name="pass"></input>
+                  </div>
+                  <div class="form-group">
+                    <input class="email-bt" placeholder="confirm password" name="cpass"></input>
+                 </div>
                </form>
                <div class="send_btn"><a href="#">SEND</a></div>
             </div>
@@ -285,7 +168,7 @@ What does "eco-friendly" mean and how can your company get that label? After all
       </div>
       <!-- contact section end -->
       <!-- footer section start -->
-      <div class="footer_section layout_padding">
+      <div id="contact" class="footer_section layout_padding">
          <div class="container-fluid">
             <div class="row">
                <div class="col-lg-8 col-sm-12 padding_0">
@@ -343,4 +226,3 @@ What does "eco-friendly" mean and how can your company get that label? After all
          })
       </script>
    </body>
-</html>
